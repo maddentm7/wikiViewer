@@ -1,0 +1,48 @@
+body{
+  background-color:#b73c65;
+  color:white;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Roboto;
+}
+#top{
+  margin: 70px 100px 70px 100px;
+  font-size: 1.3em;
+}
+input[type=text] {
+    width: 180px;
+    color: #2880e0;
+    font-size: 1.1em;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 40%;
+}
+.container{
+  margin-top: 30px;
+}
+.items{
+  background-color: pink;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.ui-autocomplete {
+    background: white;
+    list-style-type: none;
+    text-align: left;
+    width: 130px;
+    padding:0; 
+    margin:0;
+    color: #2880e0;
+    border: 5px solid #2880e0;
+    border-radius: 10px;
+}
+.ui-helper-hidden-accessible { 
+  display:none; 
+}
